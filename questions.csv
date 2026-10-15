@@ -1,0 +1,16 @@
+﻿id,question,optionA,optionB,optionC,optionD,answer
+1,哪一個函式會在 p5.js 程式開始時執行一次？,draw(),setup(),loop(),start(),1
+2,哪一個函式會在 p5.js 中建立指定寬度與高度的畫布？,"createCanvas(400, 300)","makeCanvas(400, 300)","canvasSize(400, 300)","newCanvas(400, 300)",0
+3,若要將整個畫布背景設定為黑色，應該使用哪一個指令？,fill(0),stroke(0),background(0),clear(0),2
+4,哪一個指令可以設定圖形內部的填色？,fill(),insideColor(),paintInside(),background(),0
+5,哪一個指令可以設定線條或圖形外框的顏色？,border(),stroke(),lineColor(),outlineColor(),1
+6,要繪製一個矩形，應該使用哪一個函式？,box(),squareOnly(),rect(),rectangleShape(),2
+7,"哪一個函式可以繪製正圓，例如「circle(100, 100, 50)」？",circle(),roundShape(),disk(),ring(),0
+8,哪一個函式可以繪製從一個座標到另一個座標的直線？,path(),line(),segmentLine(),connect(),1
+9,p5.js 中代表滑鼠目前水平座標的系統變數是哪一個？,mousePosX,mouseY,cursorX(),mouseX,3
+10,p5.js 中代表滑鼠目前垂直座標的系統變數是哪一個？,mouseY,mousePosY,cursorY(),mouseX,0
+11,若要取得 0 到 100 之間的隨機浮點數，哪一個寫法正確？,random(100),"randomNumber(0, 100)",chance(100),randomFloat(),0
+12,frameCount 這個系統變數通常代表什麼？,畫布的寬度,程式啟動後經過的畫格數,滑鼠按下次數,目前的文字大小,1
+13,"ellipse(100, 100, 80, 40) 會繪製哪一種圖形？",橢圓形,三角形,直線,矩形,0
+14,哪一個函式可以使用三個頂點座標繪製三角形？,threePoints(),polygon3(),triangle(),triShape(),2
+15,在 draw() 中使用 background()，通常可以避免動畫畫面留下什麼？,新的畫布,舊畫格的圖形殘影,滑鼠座標,字型檔案,1
